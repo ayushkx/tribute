@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	color: white;
+font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h6,h4{
+	margin: 0px;
+}
+
+.top{
+	
+	height: 500px;
+	margin: 18% 2% auto auto;
+	font-size: 3rem;
+	font-family: 'Galada', cursive;
+	 
+}
+@keyframes effect {
+  0%   { left:0px;}
+  25%  { left:70px;}
+  50%  {left:140px;}
+  75%  { left:70px}
+  100% { left:0px;}
+ 
+}
+.head{
+	margin-left: 10%;
+}
+.content1{
+	padding: 10% 4% 8% 4%;
+	height: 450px;
+	font-size:30px;
+	text-align: justify;
+	background-color:black;
+	opacity: 0.8;
+}
+#img1{
+	border-radius: 100%;
+   margin-left: 35%;
+   height:250px;
+   width: 250px;
+}
+
+.quotes{
+	width: 80%;
+	font-size: 3rem;
+    font-family: 'Galada', cursive;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    position: relative;
+	animation-name: effect;
+    animation-duration: 5s;
+  animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+ 
+.heading{
+	font-size: 3rem;
+    font-family: 'Galada', cursive;
+    text-align: center;
+}
+.heading:hover{
+ color:#2100d9;
+
+}
+
+.bot{
+	 padding: 5% 0 3% 0;
+	 text-align: center;
+}
+.footer-link{
+	color: white;
+}
+.footer-link:hover{
+	color: green;
+}
+
+	
